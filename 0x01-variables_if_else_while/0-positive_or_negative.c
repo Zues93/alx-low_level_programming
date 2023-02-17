@@ -2,7 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 
-/* main check is if the number is positive or negative or zero  */
+/* main check is if the number is positive or negative or zero
+ * describe This program will assign a random number to the variable   */
 int main(void)
 {
 	int n;
