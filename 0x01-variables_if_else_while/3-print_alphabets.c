@@ -1,8 +1,7 @@
 #include <stdio.h>
 /**
- * this task about loop
- * discription : print the alphabet in lower case 
- * and the in uppercase follow by a new line 
+ * this task about loop and lower case and upper case
+ * discription: print the alphabet in lower case  
  */
 int main(void)
 {
