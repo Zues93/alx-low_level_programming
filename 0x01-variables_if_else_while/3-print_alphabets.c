@@ -7,9 +7,9 @@ int i;
 i = 97;
 while (i <= 122)
 {
-putchr(i);
+putchar(i);
 i++;
 }
-putchr('\n');
+putchar('\n');
 return (0);
 }
