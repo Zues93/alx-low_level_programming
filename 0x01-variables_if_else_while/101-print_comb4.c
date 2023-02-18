@@ -15,14 +15,14 @@ putchar(48 + i % 10);
 putchar(' ');
 putchar(48 + j / 10);
 putchar(48 + j % 10);
-if (i < 98 || j < 99}
+if (i < 98 || j < 99)
 {
 putchar(',');
 putchar(' ');
 }
 j++;
 }
-j++;
+i++;
 }
 putchar('\n');
 return (0);
