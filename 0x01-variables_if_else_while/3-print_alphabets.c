@@ -10,6 +10,12 @@ while (i <= 122)
 putchar(i);
 i++;
 }
-putchar('\n');
+i = 65;
+while (i <= 90)
+{
+putchar(i);
+i++;
+}
+putchiar('\n');
 return (0);
 }
