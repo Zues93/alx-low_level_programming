@@ -1,5 +1,11 @@
 #include <stdio.h>
-/* the succes combination is business */
+/**
+ * main - Entry point
+ *
+ * This function prints all possible combinations of two two-digit numbers.
+ *
+ * Return: Always 0
+ */
 int main(void)
 {
 int i;
