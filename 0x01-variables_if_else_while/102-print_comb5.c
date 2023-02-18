@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+/* the succes combination is business */
 int main(void)
 {
 int i;
