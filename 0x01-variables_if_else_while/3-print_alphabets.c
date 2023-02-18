@@ -1,24 +1,15 @@
 #include <stdio.h>
 
-int main() {
-char c = 'a';
+int main(void)
+{
 int i;
-    
-// Print lowercase letters
-for (i = 0; i < 26; i++) {
-putchar(c);
-c++;
+
+i = 97;
+while (i <= 122)
+{
+putchr(i);
+i++;
 }
-    
-c = 'A';
-    
-// Print uppercase letters
-for (i = 0; i < 26; i++) {
-putchar(c);
-c++;
-}
-    
-putchar('\n');
-    
-return 0;
+putchr('\n');
+return (0);
 }
