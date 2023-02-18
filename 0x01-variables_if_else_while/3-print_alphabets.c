@@ -1,4 +1,5 @@
 #include <stdio.h>
+/* this task about loop */
 
 int main(void)
 {
