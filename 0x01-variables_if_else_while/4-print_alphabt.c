@@ -4,17 +4,18 @@
  * Description: get a random number and check its 
  * Ruturn: 0 
  */
-int main(void)
+int main() 
 {
-char c = 'a';
-while (c <= '2')
+char letter;
+
+for (letter = 'a'; letter <= 'z'; letter++) 
 {
-if (c != 'e' && c != 'q')
+if (letter != 'e' && letter != 'q') 
 {
-putchar(c);
+putchar(letter);
 }
-c++;
 }
 putchar('\n');
-return (0);
+
+return 0;
 }
