@@ -1,14 +1,14 @@
 #include <stdio.h>
 /**
  * main - main block
- * Description: get a random number and check its 
- * Ruturn: 0 
+ * Description:get a random number and check its 
+ * Ruturn:0 
  */
-int main() 
+int main(void) 
 {
 char letter;
 
-for (letter = 'a'; letter <= 'z'; letter++) 
+for (letter = 'a';letter <= 'z';letter++) 
 {
 if (letter != 'e' && letter != 'q') 
 {
