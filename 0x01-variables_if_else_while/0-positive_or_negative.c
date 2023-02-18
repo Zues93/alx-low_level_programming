@@ -1,21 +1,20 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
 
-/* betty style doc for function main goes there */
+/* main - check if number is positive or negative or zero Description :generate a random number and check if n or p or return value: always 0 (success) 
+*/
 int main(void)
 {
 	int n;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	/* greather than */
 	if (n > 0) 
 	    printf("%d is positive\n", n);
         else if (n < 0) 
 	    printf("%d is negative\n", n);
 	else 
-	    printf("%d is zero\n", n);    
+	    printf("%d is zero\n", n);     
 	return (0);
 }
