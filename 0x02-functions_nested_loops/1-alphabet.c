@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * alphabet in lowercase prints - the alphabet, in lowercase
- * discription: this a a type of a function with no input or ouyput.
+ * - the alphabet, in lowercase
+ * discription:print_alphabet - print all alphabet in lowercase 
  * return; always 0 (success)
  */
 void print_alphabet(void)
