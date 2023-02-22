@@ -1,8 +1,7 @@
 #include "main.h"
 /**
  * that prints - the alphabet, in lowercase
- * discription:function that prints the alphabet, in lowercase.
- * Prototype: void print_alphabet void .
+ * discription: this a a type of a function with no input or ouyput.
  */
 void print_alphabet(void)
 {
