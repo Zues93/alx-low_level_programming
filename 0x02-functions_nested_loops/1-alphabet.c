@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * no arguments and no values that prints - the alphabet, in lowercase
+ * alphabet in lowercase prints - the alphabet, in lowercase
  * discription: this a a type of a function with no input or ouyput.
  * return; always 0 (success)
  */
