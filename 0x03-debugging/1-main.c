@@ -1,8 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - causes an infinite loop
- * discription: copy main and and do not add any lines 
+ * main - causes an infinite loop 
  * Return: 0
  */
 int main(void)
