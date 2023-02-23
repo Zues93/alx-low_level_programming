@@ -27,7 +27,7 @@ else if (i == 1)
 {
 printf("%d", i);
 }
-els)e
+else
 {
 printf(" %d", i);
 }
