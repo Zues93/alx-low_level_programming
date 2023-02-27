@@ -9,9 +9,11 @@
 int main(void)
 {
 int n;
+int *p;
 n = 402;
-printf("n=%d\n", n);
-reset_to_98(&n);
-printf("n=%d\n", n);
+p = &n;
+_putchar("n = %d\n", n);
+*p = 98;
+_putchar("n = %d", n);
 return (0);
 }
