@@ -1,13 +1,12 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * rest_to_98-a funtctionn that takes a pointer to an int as parameter
+ * and updates the value it points to 98
+ * @n:input
+ * return:n
  */
-void reset_to_98()
+void rest_to_98(int *n)
 {
-	int *n;
 	*n = 98;
 }
