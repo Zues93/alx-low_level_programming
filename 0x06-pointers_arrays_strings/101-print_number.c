@@ -14,9 +14,9 @@ if (n < 0)
 _putchar('_');
 n1 = -n;
 }
-if (n1/10 != 0)
+if (n1 / 10 != 0)
 {
-print_nimber(n1/10);
+print_nimber(n1 / 10);
 }
 _putchar((n1 % 10) + '0');
 }
