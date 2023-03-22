@@ -19,7 +19,7 @@ exit(1);
 bytes = atoi(argv[1]);
 if (bytes < 0)
 {
-if (bytes < 0)
+printf("Error\n");
 exit(2);
 }
 arr = (char *)main;
