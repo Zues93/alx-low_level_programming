@@ -14,6 +14,7 @@ listint_t *head;
 listint_t *new;
 listint_t hello = {8, NULL};
 size_t n;
+
 head = &hello;
 new = malloc(sizeof(listint_t));
 if (new == NULL)
